@@ -17,6 +17,8 @@ A production order-management platform connecting Excel imports, WooCommerce, sh
 
 [View my technical portfolio](https://github.com/laniadotobi2468-ops/portfolio)
 
+Additional case studies cover a production collaborative shopping platform and a supplier-report control solution design.
+
 ## Current focus
 
 - Full-stack product development
@@ -30,4 +32,3 @@ A production order-management platform connecting Excel imports, WooCommerce, sh
 אני מפתח מערכות Web מקצה לקצה, משלב הדרישות העסקיות ועד סביבת הייצור, עם דגש על מוצרים תפעוליים, אינטגרציות, תשתיות ענן ואבטחת מידע.
 
 [לתיק העבודות ולתיאור הפרויקט בעברית](https://github.com/laniadotobi2468-ops/portfolio#עברית)
-
