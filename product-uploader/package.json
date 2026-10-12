@@ -1,0 +1,18 @@
+{
+  "name": "product-uploader",
+  "version": "0.1.0",
+  "private": true,
+  "description": "שאיבת מוצרים מאתר סחר והכנה/הקמה בבאק אופיס (ashmoret-itu)",
+  "bin": { "product-uploader": "src/cli.js" },
+  "scripts": {
+    "test": "node --test",
+    "scrape": "node src/cli.js scrape",
+    "prepare": "node src/cli.js prepare",
+    "batch": "node src/cli.js batch",
+    "upload": "node src/cli.js upload"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  },
+  "engines": { "node": ">=18" }
+}

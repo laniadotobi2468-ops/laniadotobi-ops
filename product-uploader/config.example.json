@@ -1,0 +1,33 @@
+{
+  "_comment": "העתק קובץ זה ל-config.json ומלא את הפרטים. config.json לא נשמר ב-git.",
+  "backoffice": {
+    "loginUrl": "https://bo.ashmoret-itu.co.il/Main/Login/LG_Login.aspx",
+    "selectors": {
+      "login": {
+        "user": "#TODO-שם-שדה-משתמש",
+        "pass": "#TODO-שם-שדה-סיסמה",
+        "submit": "#TODO-כפתור-התחברות"
+      }
+    }
+  },
+  "credentials": {
+    "username": "",
+    "password": ""
+  },
+  "shop": {
+    "_comment": "אופציונלי — בוררים מותאמים אם ה-JSON-LD/OpenGraph לא מספיקים",
+    "selectors": {
+      "name": "",
+      "price": "",
+      "sku": ""
+    }
+  },
+  "defaults": {
+    "_comment": "ערכים שחוזרים לכל מוצר — יושלמו אוטומטית אם חסרים",
+    "returns": "14 יום עפ\"י חוק",
+    "warranty": "",
+    "companyName": "",
+    "servicePhone": "",
+    "payments": 12
+  }
+}

@@ -1,0 +1,14 @@
+כלי הקמת מוצר — פקודות:
+
+  node src/cli.js scrape <url>              שאיבת מוצר אחד מאתר הסחר → הדפסה למסך
+  node src/cli.js prepare <url> [out.json]  שאיבה + נרמול (מחיר לא-עגול, תיאור) → קובץ JSON
+  node src/cli.js batch <urls.txt> [outDir] רשימת כתובות (שורה לכל מוצר) → תיקיית קבצים
+  node src/cli.js upload <product.json>     הקמה בבאק אופיס (ברירת מחדל: ריצה יבשה)
+
+דגלים:
+  --show   דפדפן גלוי (לראות מה קורה)
+  --go     הקמה אמיתית ב-upload (רק אחרי שבוררי המסכים הושלמו)
+
+דוגמה:
+  node src/cli.js prepare "https://your-shop.co.il/product/123"
+  node src/cli.js upload data/product-123.json --show
